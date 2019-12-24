@@ -1,0 +1,33 @@
+/*postavio sam boju BG na BODY tag da bi se tekst i promene laske primetile 😃*/
+body {
+    background: #ccc;
+    font-family: sans-serif;
+}
+
+a[href^='https://www.google.com/'] {
+    color: green;
+}
+
+a[target] {
+    color: red;
+}
+
+/* 😅😅😅nadam se da nisam pogresio sto sam selektovao paragrafe 7,8 i 9 posto nije pisalo da njih treba. 😅😅😅 */
+
+
+#second-div>p:nth-child(even) {
+    color: red;
+}
+
+p:nth-child(odd) {
+    color: blue;
+}
+
+#first-div>p::after {
+    content: ' NEW';
+    color: yellow;
+}
+
+body>p:last-of-type:hover {
+    font-style: italic;
+}
